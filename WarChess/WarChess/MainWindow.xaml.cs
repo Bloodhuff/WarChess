@@ -8,6 +8,12 @@
 		public MainWindow()
 		{
 			InitializeComponent();
+			DoNothing();
+		}
+
+		private static void DoNothing()
+		{
+			return;
 		}
 	}
 }
